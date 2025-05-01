@@ -1,8 +1,8 @@
-const sum = require('./functions.js').sum;
-const sub = require('./functions.js').sub;
-const mul = require('./functions.js').mul;
-const div = require('./functions.js').div;
-const pow = require('./functions.js').pow;
+const sum = require('../src/functions.js').sum;
+const sub = require('../src/functions.js').sub;
+const mul = require('../src/functions.js').mul;
+const div = require('../src/functions.js').div;
+const pow = require('../src/functions.js').pow;
 
 test('adds 2 + 2 to equal 4', () => {
   expect(sum(2, 2)).toBe(4);
