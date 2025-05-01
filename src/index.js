@@ -22,14 +22,14 @@ let operation, num1, num2, result;
 
 function somma() {
   readline.question("Inserisci il primo numero: ", (input2) => {
-    num1 = parseInt(input2); // Converti l'input in un numero
+    num1 = parseInt(input2);
     if (isNaN(num1)) {
       console.log('Input non valido. Inserisci un numero.');
       somma();
     }
 
     readline.question("Inserisci il secondo numero: ", (input3) => {
-      num2 = parseInt(input3); // Converti l'input in un numero
+      num2 = parseInt(input3);
       if (isNaN(num2)) {
         console.log('Input non valido. Inserisci un numero.');
         somma();
@@ -44,14 +44,14 @@ function somma() {
 
 function sottrazione() {
   readline.question("Inserisci il primo numero: ", (input2) => {
-    num1 = parseInt(input2); // Converti l'input in un numero
+    num1 = parseInt(input2);
     if (isNaN(num1)) {
       console.log('Input non valido. Inserisci un numero.');
       sottrazione();
     }
 
     readline.question("Inserisci il secondo numero: ", (input3) => {
-      num2 = parseInt(input3); // Converti l'input in un numero
+      num2 = parseInt(input3);
       if (isNaN(num2)) {
         console.log('Input non valido. Inserisci un numero.');
         sottrazione();
@@ -66,14 +66,14 @@ function sottrazione() {
 
 function moltiplicazione() {
   readline.question("Inserisci il primo numero: ", (input2) => {
-    num1 = parseInt(input2); // Converti l'input in un numero
+    num1 = parseInt(input2);
     if (isNaN(num1)) {
       console.log('Input non valido. Inserisci un numero.');
       moltiplicazione();
     }
 
     readline.question("Inserisci il secondo numero: ", (input3) => {
-      num2 = parseInt(input3); // Converti l'input in un numero
+      num2 = parseInt(input3);
       if (isNaN(num2)) {
         console.log('Input non valido. Inserisci un numero.');
         moltiplicazione();
@@ -88,14 +88,14 @@ function moltiplicazione() {
 
 function divisione() {
   readline.question("Inserisci il primo numero: ", (input2) => {
-    num1 = parseInt(input2); // Converti l'input in un numero
+    num1 = parseInt(input2);
     if (isNaN(num1)) {
       console.log('Input non valido. Inserisci un numero.');
       divisione();
     }
 
     readline.question("Inserisci il secondo numero: ", (input3) => {
-      num2 = parseInt(input3); // Converti l'input in un numero
+      num2 = parseInt(input3);
       if (isNaN(num2)) {
         console.log('Input non valido. Inserisci un numero.');
         divisione();
@@ -110,14 +110,14 @@ function divisione() {
 
 function potenze() {
   readline.question("Inserisci la base: ", (input2) => {
-    num1 = parseInt(input2); // Converti l'input in un numero
+    num1 = parseInt(input2);
     if (isNaN(num1)) {
       console.log('Input non valido. Inserisci un numero.');
       potenze();
     }
 
     readline.question("Inserisci l'esponente: ", (input3) => {
-      num2 = parseInt(input3); // Converti l'input in un numero
+      num2 = parseInt(input3);
       if (isNaN(num2)) {
         console.log('Input non valido. Inserisci un numero.');
         potenze();
@@ -132,7 +132,7 @@ function potenze() {
 
 function calculator() {
   readline.question("Inserisci l'operazione da eseguire: ", (input1) => {
-    operation = parseInt(input1); // Converti l'input in un numero
+    operation = parseInt(input1);
     if (isNaN(operation) && operation !== 1 && operation !== 2 && operation !== 3 && operation !== 4 && operation !== 5) {
       console.log('Operazione non valida');
       calculator();
