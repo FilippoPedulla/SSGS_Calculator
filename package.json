@@ -7,7 +7,7 @@
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "Filippo Pedullà <filippo.pedulla@gmail.com>",
+  "author": "Filippo Pedullà <pedulla.filippo03@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
