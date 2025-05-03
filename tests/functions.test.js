@@ -8,9 +8,9 @@ test('adds 2 + 2 to equal 4', () => {
   expect(sum(2, 2)).toBe(4);
 });
 
-test('adds 3 + 5 not to equal 7', () => {
+/*test('adds 3 + 5 not to equal 7', () => {
   expect(sum(2, 2)).toBe(7);
-});
+});*/
 
 test('sub 2 - 2 to equal 0', () => {
   expect(sub(2, 2)).toBe(0);
