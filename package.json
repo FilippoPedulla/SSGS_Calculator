@@ -1,12 +1,23 @@
 {
   "name": "ssgs-calc",
   "version": "1.0.0",
-  "description": "Calcolatrice capace di eseguire somme, sottrazioni, moltiplicazioni, divisioni e potenze con numeri reali interi",
+  "description": "Calcolatrice capace di eseguire somme, sottrazioni, moltiplicazioni, divisioni e potenze con numeri interi",
   "main": "index.js",
+  "engines": {
+    "node": "v22.14.0"
+  },
   "scripts": {
     "test": "jest --coverage"
   },
-  "keywords": [],
+  "keywords": [ 
+    "calculator",
+    "calculator app",
+    "calculator nodejs",
+    "calculator javascript",
+    "calculator js",
+    "cli",
+    "node"
+  ],
   "author": "Filippo Pedullà <pedulla.filippo03@gmail.com>",
   "license": "ISC",
   "devDependencies": {
