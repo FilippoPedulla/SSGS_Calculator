@@ -2,12 +2,13 @@
   "name": "ssgs-calc",
   "version": "1.0.0",
   "description": "Calcolatrice capace di eseguire somme, sottrazioni, moltiplicazioni, divisioni e potenze con numeri interi",
-  "main": "index.js",
+  "main": "src/index.js",
   "engines": {
     "node": "v22.14.0"
   },
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start": "node src/index.js"
   },
   "keywords": [ 
     "calculator",
